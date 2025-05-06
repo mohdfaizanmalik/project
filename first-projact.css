@@ -1,0 +1,90 @@
+body{
+          margin: 0px;
+          padding: 0px;
+          font-family: sans-serif;
+          width: 100%;
+          height: 4000px;
+          background-image: linear-gradient(200deg, rgb(255, 27, 232), rgb(206, 92, 241));
+}
+/* container */
+.container{
+          width: 90%;
+          height: 3950px;
+          background-color: white;
+          margin-left: 5%;
+          margin-top: 50px;
+}
+/* header  */
+.navbar{
+          width: 100%;
+          height: 60px;
+          display: flex;
+}
+.logo{
+          width: 10%;
+          height: 60px;
+          margin-left: 20px;
+}
+.logo a{
+          text-decoration: none;
+}
+.logo a h3{
+          color: black;
+          text-align: center;
+}
+.menu{
+          width: 50%;
+          height: 60px;
+          margin-left: 10%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+}
+.menu ul{
+          display: flex;
+          gap: 40%;
+          margin-right: auto;
+}
+.menu ul li{
+          list-style: none;
+}
+.menu ul li a{
+          text-decoration: none;
+          color: black;
+}
+.sign-in-but{
+          width: 10%;
+          height: 60px;
+          margin-left: auto;
+          margin-right: 20px;
+          
+}
+.sign-in-but button{
+          margin-top: 17px;
+          margin-left: 50px;
+          border-radius: 7px;
+          background-image: linear-gradient(100deg, rgb(206, 92, 241), rgb(255, 27, 232));
+}
+.sign-in-but button a{
+          text-decoration: none;
+          color: white;
+}
+.banner{
+          width: 100%;
+          height: 550px;
+          background-color: cadetblue;
+          display: flex;
+}
+.heading{
+          width: 40%;
+          height: 550px;
+          background-color: brown;
+          margin-left: 5%;
+}
+.banner-img{
+          width: 40%;
+          height: 550px;
+          background-color: chartreuse;
+          margin-left: auto;
+          margin-right: 5%;
+}
