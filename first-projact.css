@@ -306,3 +306,27 @@ body{
           background-color: blue;
           margin-top: 50px;
 }
+.footer-left h3{
+          margin-left: 20px;
+          margin-top: 20px;
+}
+.footer-left p{
+          margin-left: 20px;
+}
+.footer-left button{
+          margin-left: 20px;
+          width: 130px;
+          height: 40px;
+          border-radius: 10px;
+          cursor: pointer;
+          font-size: 15px;
+          background-image: linear-gradient(50deg, rgb(117, 0, 106), rgb(255, 134, 227));
+}
+.circle{
+          width: 200px;
+          height: 200px;
+          background-image: linear-gradient(50deg, rgb(117, 0, 106), rgb(255, 134, 227));
+          border-radius: 100px;
+          margin-left: 20px;
+          margin-top: 20px;
+}
