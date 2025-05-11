@@ -182,6 +182,12 @@ body{
           padding: 5px;
           box-shadow: 0 0 20px;
 }
+.photos img:hover{
+          transform: scale(.90);
+}
+.photos:hover>:not(:hover){
+          opacity: 0.3;
+}
 .online-learning{
           width: 35%;
           height: 400px;
@@ -256,6 +262,9 @@ body{
           height: 180px;
           border-radius: 20px;
 }
+.image img:hover{
+          transform: scale(1.1);
+}
 .image-details{
           width: 80%;
           height: 150px;
@@ -329,4 +338,5 @@ body{
           border-radius: 100px;
           margin-left: 20px;
           margin-top: 20px;
+          box-shadow: 0 0 10px;
 }
